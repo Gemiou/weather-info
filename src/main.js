@@ -7,7 +7,7 @@ import 'leaflet/dist/leaflet.css';
 Vue.config.productionTip = false
 
 Vue.prototype.$http = axios
-Vue.prototype.apiURL = 'https://jsonplaceholder.typicode.com/users'
+Vue.prototype.apiURL = 'https://api.draxis.gr/weather/meteo/hourly?apikey=4181a631-652a-40a2-a57f-e8338074cc5a'
 
 // Fixing Marker Error
 // https://github.com/vue-leaflet/Vue2Leaflet/issues/103
