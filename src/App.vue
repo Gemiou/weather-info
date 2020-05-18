@@ -5,7 +5,17 @@
                 class="mx-auto"
                 max-width="80vw"
               >
-                <v-card-title class="headline">Weather Map</v-card-title>
+                <v-list-item>
+                    <v-list-item-avatar color="white">
+                        <img
+                            src="logo.png"
+                        >
+                    </v-list-item-avatar>
+                    <v-list-item-content>
+                        <v-list-item-title class="headline">Weather Map</v-list-item-title>
+                        <v-list-item-subtitle>Click on any location to get Temperature and Humidity informations</v-list-item-subtitle>
+                    </v-list-item-content>
+                </v-list-item>
                 <Map/>
             </v-card>
         </v-content>
